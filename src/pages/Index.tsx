@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import AboutSalon from "@/components/AboutSalon";
 import ServicesMenu from "@/components/ServicesMenu";
+import BookingForm from "@/components/BookingForm";
 import FinalCTA from "@/components/FinalCTA";
 
 const Index = () => {
@@ -14,6 +15,7 @@ const Index = () => {
         <section id="servicios">
           <ServicesMenu />
         </section>
+        <BookingForm />
         <section id="contacto">
           <FinalCTA />
         </section>
